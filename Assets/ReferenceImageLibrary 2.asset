@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary 2
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4688574204481264154
+  m_GuidHigh: 10932539615562725026
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5684586813214844538
+      m_GuidHigh: 1849423035834251679
+    m_SerializedTextureGuid:
+      m_GuidLow: 11125133306247493872
+      m_GuidHigh: 2260551311200096810
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: apple
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5164411915110775829
+      m_GuidHigh: 6408355737364200107
+    m_SerializedTextureGuid:
+      m_GuidLow: 11129777033513123755
+      m_GuidHigh: 1117205035226056218
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: avocado
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4640599770641582769
+      m_GuidHigh: 3568671597811455660
+    m_SerializedTextureGuid:
+      m_GuidLow: 16209766540275117218
+      m_GuidHigh: 13332503149753587928
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: banana
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5133000915842983789
+      m_GuidHigh: 6476774613267234196
+    m_SerializedTextureGuid:
+      m_GuidLow: 5558736700532865622
+      m_GuidHigh: 11608991020806368827
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: candy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5565693381174942570
+      m_GuidHigh: 9033454715090366866
+    m_SerializedTextureGuid:
+      m_GuidLow: 11260173327518307839
+      m_GuidHigh: 14218130131126036395
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: cherry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5487114326877219115
+      m_GuidHigh: 5529094358937819054
+    m_SerializedTextureGuid:
+      m_GuidLow: 9481222216452152973
+      m_GuidHigh: 8955765877997110394
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: coffee
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5078815079813401970
+      m_GuidHigh: 7084055847191366583
+    m_SerializedTextureGuid:
+      m_GuidLow: 17173502528769686400
+      m_GuidHigh: 5326861344521538603
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: cola
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5581578110469409205
+      m_GuidHigh: 5587118297982039981
+    m_SerializedTextureGuid:
+      m_GuidLow: 1960249441361466645
+      m_GuidHigh: 9313410833614877816
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: hotdog
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5661599564527739354
+      m_GuidHigh: 10147504011839009695
+    m_SerializedTextureGuid:
+      m_GuidLow: 9044430557256578366
+      m_GuidHigh: 13025906447604546216
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: icecream
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5204874379829880170
+      m_GuidHigh: 7321608237835347365
+    m_SerializedTextureGuid:
+      m_GuidLow: 17200394792849729600
+      m_GuidHigh: 16003378489911574650
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: lemon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4690905880437024575
+      m_GuidHigh: 12759508223168736655
+    m_SerializedTextureGuid:
+      m_GuidLow: 3784249380071043345
+      m_GuidHigh: 7776712817300081560
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: melon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4859258352552530574
+      m_GuidHigh: 7725713009276468358
+    m_SerializedTextureGuid:
+      m_GuidLow: 9575997405309116140
+      m_GuidHigh: 2820291618717413753
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: peach
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5498958286776675847
+      m_GuidHigh: 5073653784291587730
+    m_SerializedTextureGuid:
+      m_GuidLow: 9553450878687471841
+      m_GuidHigh: 4925120120379204057
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: pizza
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5647495029325726941
+      m_GuidHigh: 17813511150687848630
+    m_SerializedTextureGuid:
+      m_GuidLow: 11557619584353385561
+      m_GuidHigh: 10014599973004984298
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: strawberry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5058341954039740291
+      m_GuidHigh: 18201323040454062498
+    m_SerializedTextureGuid:
+      m_GuidLow: 17709449075607203200
+      m_GuidHigh: 6479646416880734425
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: tomato
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5677712975325060845
+      m_GuidHigh: 17415218426697150908
+    m_SerializedTextureGuid:
+      m_GuidLow: 15313404612760513817
+      m_GuidHigh: 3127185121585474040
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: watermelon
+    m_Texture: {fileID: 0}
