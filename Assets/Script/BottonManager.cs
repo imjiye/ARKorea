@@ -13,6 +13,9 @@ public class BottonManager : MonoBehaviour
 
     public string thisScene;
 
+    public GameObject t1;
+    public GameObject t2;
+
     public void OpenMenu() //메뉴버튼을 누른 경우 메뉴팝업 활성화
     {
         CanvasPause.SetActive(true);
@@ -67,5 +70,16 @@ public class BottonManager : MonoBehaviour
     public void CloseOption()
     {
         optionbtn.SetActive(false);
+    }
+
+    public void OnClick_OpenURL()
+    {
+        Application.OpenURL("https://drive.google.com/drive/folders/1ilYEfJFynY3GEN5GHcw_-fdD-MEEymHI?usp=sharing"); // 클릭하면 사이트로 이동하게 하는 코드
+    }
+
+    public void OpenT2()
+    {
+        t2.SetActive(true);
+        t1.SetActive(false);
     }
 }
