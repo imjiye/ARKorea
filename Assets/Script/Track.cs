@@ -9,15 +9,19 @@ using UnityEngine.UI;
 public class Track : MonoBehaviour
 {
     public ARTrackedImageManager manager;
-    public List<GameObject> list1 = new List<GameObject>();
+    public List<GameObject> list1 = new List<GameObject>(); // 이미지 위에 나타날 오브젝트
     public List<AudioClip> list2 = new List<AudioClip>(); // 첫 번째 소리 리스트
     public List<AudioClip> list3 = new List<AudioClip>(); // 두 번째 소리 리스트
+    public List<GameObject> list4 = new List<GameObject>(); // 텍스트 리스트
+
     public Button playButton1; // 첫 번째 버튼
     public Button playButton2; // 두 번째 버튼
 
     private Dictionary<string, GameObject> dict1 = new Dictionary<string, GameObject>();
     private Dictionary<string, AudioClip> dict2 = new Dictionary<string, AudioClip>();
     private Dictionary<string, AudioClip> dict3 = new Dictionary<string, AudioClip>(); // 두 번째 소리를 위한 딕셔너리
+    private Dictionary<string, GameObject> dict4 = new Dictionary<string, GameObject>(); // 텍스트 딕셔너리
+
     private string currentTrackedImageName; // 현재 트래킹된 이미지 이름
 
     void Start()
@@ -36,6 +40,11 @@ public class Track : MonoBehaviour
         foreach (AudioClip o in list3)
         {
             dict3.Add(o.name, o);
+        }
+
+        foreach(GameObject tt in list4)
+        {
+            dict4.Add(tt.name, tt);
         }
 
         if (playButton1 != null)
@@ -75,6 +84,29 @@ public class Track : MonoBehaviour
         }
     }
 
+    void UpdateText(ARTrackedImage t)
+    {
+        string name = t.referenceImage.name;
+        if (dict4.TryGetValue(name, out GameObject o))
+        {
+            if (t.trackingState == TrackingState.Tracking)
+            {
+                o.SetActive(true);
+
+                currentTrackedImageName = name; // 현재 트래킹된 이미지 업데이트
+            }
+            else
+            {
+                o.SetActive(false);
+
+                if (currentTrackedImageName == name)
+                {
+                    currentTrackedImageName = null; // 이미지가 트래킹되지 않을 경우 초기화
+                }
+            }
+        }
+    }
+
     void UpdateSound1(string name)
     {
         if (dict2.TryGetValue(name, out AudioClip sound))
@@ -96,11 +128,14 @@ public class Track : MonoBehaviour
         foreach (ARTrackedImage t in args.added)
         {
             UpdateImage(t);
+            UpdateText(t);
+            
         }
 
         foreach (ARTrackedImage t in args.updated)
         {
             UpdateImage(t);
+            UpdateText(t);
         }
     }
 
