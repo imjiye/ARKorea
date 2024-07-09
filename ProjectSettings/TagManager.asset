@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FxTemporaire
+  - Rotate180
+  - Rotate-90
+  - Rotate90
+  - Rotate00180
   layers:
   - Default
   - TransparentFX

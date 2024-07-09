@@ -14,6 +14,8 @@ public class Track : MonoBehaviour
     public List<AudioClip> list3 = new List<AudioClip>(); // 두 번째 소리 리스트
     public List<GameObject> list4 = new List<GameObject>(); // 텍스트 리스트
 
+    public GameObject effectPrefab; // 이펙트 프리팹
+
     public Button playButton1; // 첫 번째 버튼
     public Button playButton2; // 두 번째 버튼
 
@@ -21,6 +23,7 @@ public class Track : MonoBehaviour
     private Dictionary<string, AudioClip> dict2 = new Dictionary<string, AudioClip>();
     private Dictionary<string, AudioClip> dict3 = new Dictionary<string, AudioClip>(); // 두 번째 소리를 위한 딕셔너리
     private Dictionary<string, GameObject> dict4 = new Dictionary<string, GameObject>(); // 텍스트 딕셔너리
+    private Dictionary<string, GameObject> instantiatedEffects = new Dictionary<string, GameObject>(); // 이펙트를 위한 딕셔너리
 
     private string currentTrackedImageName; // 현재 트래킹된 이미지 이름
 
@@ -67,8 +70,42 @@ public class Track : MonoBehaviour
             if (t.trackingState == TrackingState.Tracking)
             {
                 o.transform.position = t.transform.position;
-                o.transform.rotation = t.transform.rotation;
+                if (o.CompareTag("Rotate180"))
+                {
+                    o.transform.rotation = t.transform.rotation * Quaternion.Euler(0, 180, 0);
+                }
+                else if (o.CompareTag("Rotate-90"))
+                {
+                    o.transform.rotation = t.transform.rotation * Quaternion.Euler(-90, 0, 0);
+                }
+                else if (o.CompareTag("Rotate90"))
+                {
+                    o.transform.rotation = t.transform.rotation * Quaternion.Euler(90, 0, 0);
+                }
+                else if (o.CompareTag("Rotate00180"))
+                {
+                    o.transform.rotation = t.transform.rotation * Quaternion.Euler(0, 0, 180);
+                }
+                else
+                {
+                    o.transform.rotation = t.transform.rotation;
+                }
+                //o.transform.rotation = t.transform.rotation * Quaternion.Euler(0, 180, 0);
+                //o.transform.rotation = t.transform.rotation;
                 o.SetActive(true);
+
+                // 이펙트 추가
+                if (!instantiatedEffects.ContainsKey(name))
+                {
+                    GameObject effect = Instantiate(effectPrefab, t.transform.position, t.transform.rotation);
+                    effect.transform.SetParent(o.transform);
+                    ParticleSystem particleSystem = effect.GetComponent<ParticleSystem>();
+                    if (particleSystem != null)
+                    {
+                        particleSystem.Play();
+                    }
+                    instantiatedEffects[name] = effect;
+                }
 
                 currentTrackedImageName = name; // 현재 트래킹된 이미지 업데이트
             }
