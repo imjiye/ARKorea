@@ -81,5 +81,6 @@ public class BottonManager : MonoBehaviour
     {
         t2.SetActive(true);
         t1.SetActive(false);
+        TextManager.instance.TextFade();
     }
 }

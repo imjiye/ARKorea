@@ -190,6 +190,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &44622888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44622890}
+  - component: {fileID: 44622889}
+  m_Layer: 0
+  m_Name: TextManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &44622889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44622888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b4f8079ac854c49af0d9bfa741e223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text1: {fileID: 0}
+  textFade: {fileID: 0}
+  text2: {fileID: 0}
+  textFade2: {fileID: 0}
+  text3: {fileID: 2009518804}
+--- !u!4 &44622890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44622888}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1041.491, y: 764.48535, z: 447.3838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &148117994
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,6 +508,7 @@ GameObject:
   - component: {fileID: 490847526}
   - component: {fileID: 490847525}
   - component: {fileID: 490847524}
+  - component: {fileID: 490847529}
   m_Layer: 5
   m_Name: Button (Legacy) (1)
   m_TagString: Untagged
@@ -610,6 +660,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490847522}
   m_CullTransparentMesh: 1
+--- !u!114 &490847529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490847522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7955c4906fa10424d8ca98b6c2dd049d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &559320382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,6 +1255,7 @@ GameObject:
   - component: {fileID: 1555634623}
   - component: {fileID: 1555634622}
   - component: {fileID: 1555634621}
+  - component: {fileID: 1555634626}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -1343,6 +1406,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555634619}
   m_CullTransparentMesh: 1
+--- !u!114 &1555634626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555634619}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7955c4906fa10424d8ca98b6c2dd049d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1619633480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,10 +1597,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "'AR\uD55C\uAE00\uACF5\uBD80' \uC571\uC744 \uC0AC\uC6A9\uD558\uAE30 \uC704\uD574\uC11C\uB294
-    \uD55C\uAE00 \uB0B1\uB9D0 \uCE74\uB4DC\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4.\n\uC544\uC9C1
-    \uCE74\uB4DC\uAC00 \uC900\uBE44\uB418\uC9C0 \uC54A\uC558\uB2E4\uBA74 \uB2E4\uC6B4\uBC1B\uC544
-    \uCD9C\uB825\uD574 \uC8FC\uC138\uC694."
+  m_Text: 
 --- !u!222 &2009518805
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1743,11 +1815,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 2340, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1808,3 +1880,4 @@ SceneRoots:
   - {fileID: 14515735}
   - {fileID: 1789478365}
   - {fileID: 203192963}
+  - {fileID: 44622890}

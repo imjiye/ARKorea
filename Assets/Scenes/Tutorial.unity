@@ -412,12 +412,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\uD55C\uAE00 \uACF5\uBD80\uB97C \uC870\uAE08 \uB354 \uC7AC\uBBF8\uC788\uACE0
-    \uC27D\uAC8C \uD560 \uC218 \uC788\uB3C4\uB85D\n\uD55C\uAE00 \uB0B1\uB9D0 \uCE74\uB4DC\uC640
-    \uC99D\uAC15\uD604\uC2E4(AR : Augmented Reality) \uAE30\uC220\uC744 \n\uACB0\uD569\uD55C
-    \uCF58\uD150\uCE20 \uC785\uB2C8\uB2E4.\n\n\uC544\uC774\uB4E4 \uBFD0 \uC544\uB2C8\uB77C
-    \uD55C\uAE00\uC744 \uBC30\uC6B0\uACE0\uC790 \uD558\uB294 \uC678\uAD6D\uC778\uB4E4\uC5D0\uAC8C\uB3C4\n\uC720\uC6A9\uD558\uAC8C
-    \uC0AC\uC6A9\uB420 \uC218 \uC788\uAE30\uB97C \uAE30\uB300\uD569\uB2C8\uB2E4."
+  m_Text: 
 --- !u!222 &74717207
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -524,7 +519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -544,7 +539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\uC0AC\uC6A9 \uBC29\uBC95"
+  m_Text: "\uAC8C\uC784 \uBC29\uBC95"
 --- !u!222 &162162354
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -619,7 +614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -718,12 +713,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.89
-  m_Text: "1. \uACF5\uBD80\uD558\uACE0\uC790 \uD558\uB294 \uCE74\uD14C\uACE0\uB9AC\uB97C
-    \uC120\uD0DD\uD569\uB2C8\uB2E4.\n2. \uC120\uD0DD\uD55C \uCE74\uD14C\uACE0\uB9AC\uC5D0
-    \uD574\uB2F9\uD558\uB294 \uB0B1\uB9D0\uCE74\uB4DC\uB97C \uC900\uBE44\uD569\uB2C8\uB2E4.\n3.
-    \uD55C\uAE00\uC744 \uC77D\uACE0 \uCE74\uB4DC\uB97C \uCE74\uBA54\uB77C\uB85C \uBE44\uCDB0
-    \uADF8\uB9BC\uC744 \uD655\uC778\uD558\uACE0 \uBC1C\uC74C\uC744 \uB4E4\uC5B4\uBD05\uB2C8\uB2E4.\n4.
-    \uBC18\uBCF5\uD574\uC11C \uB2E8\uC5B4\uB97C \uACF5\uBD80\uD569\uB2C8\uB2E4."
+  m_Text: 
 --- !u!222 &524748326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1696,6 +1686,54 @@ MonoBehaviour:
   thisScene: 
   t1: {fileID: 1878276036}
   t2: {fileID: 1971089661}
+--- !u!1 &1838270365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1838270367}
+  - component: {fileID: 1838270366}
+  m_Layer: 0
+  m_Name: TextManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1838270366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838270365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b4f8079ac854c49af0d9bfa741e223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text1: {fileID: 74717206}
+  textFade: {fileID: 398934347}
+  text2: {fileID: 524748325}
+  textFade2: {fileID: 162162353}
+--- !u!4 &1838270367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838270365}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1041.491, y: 764.48535, z: 447.3838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1878276036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,11 +2004,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 2340, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -2031,3 +2069,4 @@ SceneRoots:
   - {fileID: 14515735}
   - {fileID: 1789478365}
   - {fileID: 1489210676}
+  - {fileID: 1838270367}
