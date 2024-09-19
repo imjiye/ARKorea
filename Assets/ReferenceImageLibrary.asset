@@ -1,0 +1,579 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5705746440089823150
+  m_GuidHigh: 15611625287172747966
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4714227142983738899
+      m_GuidHigh: 14862874111631403181
+    m_SerializedTextureGuid:
+      m_GuidLow: 5689409362562603390
+      m_GuidHigh: 11757096096175152009
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: cat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5340522619208013705
+      m_GuidHigh: 415910151190954153
+    m_SerializedTextureGuid:
+      m_GuidLow: 3644594760705973841
+      m_GuidHigh: 15552231273777510683
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: chick
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5352427575034565205
+      m_GuidHigh: 7365259671060662421
+    m_SerializedTextureGuid:
+      m_GuidLow: 15822409239373353165
+      m_GuidHigh: 9680919356607302984
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: dog
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5070317304733308222
+      m_GuidHigh: 16984373031486676412
+    m_SerializedTextureGuid:
+      m_GuidLow: 1264891025069909
+      m_GuidHigh: 5193197185253755354
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: elephant
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4877462410215362432
+      m_GuidHigh: 4825652401642446992
+    m_SerializedTextureGuid:
+      m_GuidLow: 8355332654564472007
+      m_GuidHigh: 12118881150204625304
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: horse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4853503643048283695
+      m_GuidHigh: 3474499594018531207
+    m_SerializedTextureGuid:
+      m_GuidLow: 3419415821859936644
+      m_GuidHigh: 10302992551035940042
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: leopard
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4798716988601724715
+      m_GuidHigh: 6461109132792033442
+    m_SerializedTextureGuid:
+      m_GuidLow: 15277464432649386654
+      m_GuidHigh: 6532074086122758825
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: penguin
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5596695473870746063
+      m_GuidHigh: 1528378987760212898
+    m_SerializedTextureGuid:
+      m_GuidLow: 14074908174566752578
+      m_GuidHigh: 8071463268400208248
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: pig
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5243778156940091953
+      m_GuidHigh: 1100857763999059852
+    m_SerializedTextureGuid:
+      m_GuidLow: 5545103037363381357
+      m_GuidHigh: 1665454060247505593
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: rhinoceros
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4757619485696508635
+      m_GuidHigh: 11367798915745022394
+    m_SerializedTextureGuid:
+      m_GuidLow: 16975305528345416683
+      m_GuidHigh: 7012203856120736235
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: sheep
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4847576764378021032
+      m_GuidHigh: 16954437977696517036
+    m_SerializedTextureGuid:
+      m_GuidLow: 16304422457264823993
+      m_GuidHigh: 5768680022087129
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: tiger
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4912982356734276141
+      m_GuidHigh: 1278975053507609993
+    m_SerializedTextureGuid:
+      m_GuidLow: 11125133306247493872
+      m_GuidHigh: 2260551311200096810
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: apple
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4944850083715196722
+      m_GuidHigh: 7060768931756871055
+    m_SerializedTextureGuid:
+      m_GuidLow: 11129777033513123755
+      m_GuidHigh: 1117205035226056218
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: avocado
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5532596315896037826
+      m_GuidHigh: 1358179413944647327
+    m_SerializedTextureGuid:
+      m_GuidLow: 16209766540275117218
+      m_GuidHigh: 13332503149753587928
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: banana
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5315459045562123940
+      m_GuidHigh: 13402671353957437114
+    m_SerializedTextureGuid:
+      m_GuidLow: 5558736700532865622
+      m_GuidHigh: 11608991020806368827
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: candy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4919772756091232239
+      m_GuidHigh: 6248881477210839205
+    m_SerializedTextureGuid:
+      m_GuidLow: 11260173327518307839
+      m_GuidHigh: 14218130131126036395
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: cherry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4846656284497899227
+      m_GuidHigh: 12087636014704490655
+    m_SerializedTextureGuid:
+      m_GuidLow: 9481222216452152973
+      m_GuidHigh: 8955765877997110394
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: coffee
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5582190879287144826
+      m_GuidHigh: 6312546937153196434
+    m_SerializedTextureGuid:
+      m_GuidLow: 17173502528769686400
+      m_GuidHigh: 5326861344521538603
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: cola
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5407327800372548484
+      m_GuidHigh: 15241708727056889993
+    m_SerializedTextureGuid:
+      m_GuidLow: 1960249441361466645
+      m_GuidHigh: 9313410833614877816
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: hotdog
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4909098136099621958
+      m_GuidHigh: 14453631575638475408
+    m_SerializedTextureGuid:
+      m_GuidLow: 9044430557256578366
+      m_GuidHigh: 13025906447604546216
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: icecream
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4697871519976968298
+      m_GuidHigh: 15375568778268414856
+    m_SerializedTextureGuid:
+      m_GuidLow: 17200394792849729600
+      m_GuidHigh: 16003378489911574650
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: lemon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4696420745938024798
+      m_GuidHigh: 7321482195271368379
+    m_SerializedTextureGuid:
+      m_GuidLow: 3784249380071043345
+      m_GuidHigh: 7776712817300081560
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: melon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5182443932619346328
+      m_GuidHigh: 16752735848313103505
+    m_SerializedTextureGuid:
+      m_GuidLow: 9575997405309116140
+      m_GuidHigh: 2820291618717413753
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: peach
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5621279947392799623
+      m_GuidHigh: 2060865473393957309
+    m_SerializedTextureGuid:
+      m_GuidLow: 9553450878687471841
+      m_GuidHigh: 4925120120379204057
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: pizza
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5587517263759413562
+      m_GuidHigh: 17619071143349074359
+    m_SerializedTextureGuid:
+      m_GuidLow: 11557619584353385561
+      m_GuidHigh: 10014599973004984298
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: strawberry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5732239519127769214
+      m_GuidHigh: 4868048996573834672
+    m_SerializedTextureGuid:
+      m_GuidLow: 17709449075607203200
+      m_GuidHigh: 6479646416880734425
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: tomato
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5243959552838605375
+      m_GuidHigh: 269445968083105965
+    m_SerializedTextureGuid:
+      m_GuidLow: 15313404612760513817
+      m_GuidHigh: 3127185121585474040
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: watermelon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5579839927409957092
+      m_GuidHigh: 8709787398690129817
+    m_SerializedTextureGuid:
+      m_GuidLow: 3500538654725724080
+      m_GuidHigh: 10540723208144344600
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: bed
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5121673458812897312
+      m_GuidHigh: 1079516713539982756
+    m_SerializedTextureGuid:
+      m_GuidLow: 1401908519088320350
+      m_GuidHigh: 3653439538223126698
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: calculatingmachine
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5376108543406212186
+      m_GuidHigh: 11200911181789173420
+    m_SerializedTextureGuid:
+      m_GuidLow: 10656823727299919188
+      m_GuidHigh: 3002376582122092185
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: camera
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5439212399467547449
+      m_GuidHigh: 2719230574409414306
+    m_SerializedTextureGuid:
+      m_GuidLow: 16160250245741453744
+      m_GuidHigh: 1102986523328688490
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: cellphone
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4925687727430256512
+      m_GuidHigh: 9139779684707960477
+    m_SerializedTextureGuid:
+      m_GuidLow: 965120722252068079
+      m_GuidHigh: 13233528818404330539
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: chair
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4882286218046252898
+      m_GuidHigh: 2287640962542202263
+    m_SerializedTextureGuid:
+      m_GuidLow: 9535450692546714410
+      m_GuidHigh: 15419033302006677496
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: dice
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5430555058046370094
+      m_GuidHigh: 13549677315112262805
+    m_SerializedTextureGuid:
+      m_GuidLow: 7589713872500783684
+      m_GuidHigh: 727700465382634779
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: flashlight
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4987826148187337067
+      m_GuidHigh: 2537727161614218413
+    m_SerializedTextureGuid:
+      m_GuidLow: 6229863651017221239
+      m_GuidHigh: 7867823540964405899
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: guitar
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5569690849767266197
+      m_GuidHigh: 1819182748985140353
+    m_SerializedTextureGuid:
+      m_GuidLow: 18339890227070940894
+      m_GuidHigh: 4206818829535209768
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: hairdryer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4818057112039124903
+      m_GuidHigh: 16915483441666601606
+    m_SerializedTextureGuid:
+      m_GuidLow: 460568538305814384
+      m_GuidHigh: 15408527017948825083
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: key
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5278077927551368906
+      m_GuidHigh: 4991865118669496968
+    m_SerializedTextureGuid:
+      m_GuidLow: 14417375899461077724
+      m_GuidHigh: 16070726006010341545
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: laptop
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4773078989094145087
+      m_GuidHigh: 10142348489414247591
+    m_SerializedTextureGuid:
+      m_GuidLow: 15205486115317152730
+      m_GuidHigh: 18142999383526398666
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: microphone
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5270485997930178090
+      m_GuidHigh: 8069316041246086076
+    m_SerializedTextureGuid:
+      m_GuidLow: 3712116122737947248
+      m_GuidHigh: 13235051914527155816
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: microwave
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4712470964439298131
+      m_GuidHigh: 17183977526547173044
+    m_SerializedTextureGuid:
+      m_GuidLow: 14795482146335599965
+      m_GuidHigh: 11099424052817573786
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: piano
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4680986728526223891
+      m_GuidHigh: 1208854862081987764
+    m_SerializedTextureGuid:
+      m_GuidLow: 1325345735427049840
+      m_GuidHigh: 17265518448899886024
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: refrigerator
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4813480552423155434
+      m_GuidHigh: 8779466501089885373
+    m_SerializedTextureGuid:
+      m_GuidLow: 10647832127275330555
+      m_GuidHigh: 4498886392603144954
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: sofa
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4777719310358999712
+      m_GuidHigh: 5400010425944435845
+    m_SerializedTextureGuid:
+      m_GuidLow: 11872745839677420507
+      m_GuidHigh: 3755026033794741897
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: stethoscope
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5383872791615978120
+      m_GuidHigh: 4695226353955966889
+    m_SerializedTextureGuid:
+      m_GuidLow: 5256950106708461185
+      m_GuidHigh: 13688022561621785193
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: television
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4891188940900499111
+      m_GuidHigh: 15225928638665216921
+    m_SerializedTextureGuid:
+      m_GuidLow: 14520795144948700121
+      m_GuidHigh: 16873564342633813611
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: washingmachine
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5227751673729051590
+      m_GuidHigh: 2375734572960514713
+    m_SerializedTextureGuid:
+      m_GuidLow: 17439122865779440401
+      m_GuidHigh: 14055652762422147560
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: airplane
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4702932313221472795
+      m_GuidHigh: 2904371656152168837
+    m_SerializedTextureGuid:
+      m_GuidLow: 9873266433018406904
+      m_GuidHigh: 981219561995086538
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: bicycle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4828528838751390820
+      m_GuidHigh: 582556073357492367
+    m_SerializedTextureGuid:
+      m_GuidLow: 1086615533445139095
+      m_GuidHigh: 2482682838754881722
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: boat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4989744428172317671
+      m_GuidHigh: 6419521985316903817
+    m_SerializedTextureGuid:
+      m_GuidLow: 15038869487793827577
+      m_GuidHigh: 559533332255651818
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: bus
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5085222023297325506
+      m_GuidHigh: 950518846910383543
+    m_SerializedTextureGuid:
+      m_GuidLow: 4036610287470899783
+      m_GuidHigh: 13524129465411381161
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: car
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5594249355721465709
+      m_GuidHigh: 1069090470278910632
+    m_SerializedTextureGuid:
+      m_GuidLow: 17088032456554065291
+      m_GuidHigh: 6890693940943901771
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: helicopter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4882932473191080115
+      m_GuidHigh: 11321674928566971800
+    m_SerializedTextureGuid:
+      m_GuidLow: 13998518828066551937
+      m_GuidHigh: 13738876968815317082
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: kayak
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4947149273356432006
+      m_GuidHigh: 5945328443032373411
+    m_SerializedTextureGuid:
+      m_GuidLow: 6000068233168191308
+      m_GuidHigh: 13467448198210895320
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: policecar
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5174862281715818771
+      m_GuidHigh: 18218369124767463101
+    m_SerializedTextureGuid:
+      m_GuidLow: 5099251870847668946
+      m_GuidHigh: 4666726307902516346
+    m_Size: {x: 0.2, y: 0.10955414}
+    m_SpecifySize: 1
+    m_Name: taxi
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4837351742298726930
+      m_GuidHigh: 13867424103386811528
+    m_SerializedTextureGuid:
+      m_GuidLow: 7044824024609761645
+      m_GuidHigh: 1872582992070257705
+    m_Size: {x: 0.2, y: 0.109437965}
+    m_SpecifySize: 1
+    m_Name: truck
+    m_Texture: {fileID: 0}
